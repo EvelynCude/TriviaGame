@@ -1,0 +1,46 @@
+/*Background from http://www.playbuzz.com/bennistonmatthews10/can-you-guess-the-correct-brand-slogan*/
+body{
+	background-image: url(../images/logobackground.jpg);
+	background-size: cover;
+}
+
+/*Font from Google Fonts*/
+.container .page-header{
+	font-family: 'Paytone One', sans-serif;
+	color: #477fff;
+	border-bottom: none;
+}
+
+.container{
+	background-color: #ffbe4d;
+	background: radial-gradient(#ffd59b, #ffbe4d, orange);
+	/*background-image: url(../images/stacked_circles.png);*/
+	margin-top: 50px;
+	height: 400px;
+	border: 5px orange outset;
+}
+
+.time{
+	font-size: 18px;
+}
+
+#triviaQuestion{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#answersBox, #correctAnswer{
+	font-size: 22px;
+	line-height: 35px;
+}
+
+.answerChoice:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: default;
+}
+
+button{
+	width: 150px;
+}
