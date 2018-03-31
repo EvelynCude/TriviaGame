@@ -1,4 +1,9 @@
 # TriviaGame
+
+Live Link: 
+https://evelyncude.github.io/TriviaGame/
+
+
 This is a trivia game about brands.  
 The game shows only one question until the player answers it or their time runs out.
 If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question -- do this without user input.
